@@ -1,3 +1,5 @@
+{# blog\templates\home.html #}
+
 {% extends '_base.html' %}
 
 {% block content %}
@@ -14,7 +16,7 @@
         {# Loop para iterar cada postagem #}
         {% for post in posts %}
 
-        <div class="pb-3 col-12 col-sm-6 col-lg-4">
+        <div class="pb-3 col-12 col-sm-6 col-lg-3">
 
             <div class="card h-100">
                 <img class="card-img-top w-100" src="{{ post.thumbnail }}" alt="{{ post.title }}">

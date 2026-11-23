@@ -1,3 +1,5 @@
+# blog\views\contacts.py
+
 from django.shortcuts import render
 
 def contacts(request):
